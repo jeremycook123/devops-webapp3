@@ -14,12 +14,6 @@ java {
 
 // =======================================
 
-compileJava {
-    options.compilerArgs += '-proc:none'
-}
-
-// =======================================
-
 buildscript {
   repositories {
     jcenter()
